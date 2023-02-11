@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&family=Nunito:wght@600;700;800;900;1000&family=Poppins:wght@700;800&family=Raleway:wght@400;500&family=Roboto:wght@900&family=Rubik:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1>Daily Diary</h1>
+    </div>
+
+    <div class="form">
+      <!-- <form action=""> -->
+      <select id="days" name="days">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
+      <!-- <input type="text" id="days" placeholder="Add days"></input> -->
+      <input type="text" id="myinput" placeholder="Add your plan" /><br />
+      <button onclick="newElement()" type="submit">
+        <img src="plus icon.jpg" alt="" />
+      </button>
+      <!-- </form> -->
+    </div>
+    <div class="task">
+      <ul id="myjm">
+        <!-- <li class="checked">spideyJM</li> -->
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
