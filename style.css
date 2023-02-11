@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background: rgb(32, 42, 36);
+    height: 700px;
+}
+.head h1{
+    padding-top: 9rem;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(74, 145, 33);
+}
+
+.form {
+    padding-top: 3rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form input{
+    height: 37px;
+    width: 20rem;
+    background: rgba(255, 255, 0, 0.21);
+    border-radius: 20px;
+    color: cyan;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    border-style: none;
+}
+.form :-ms-input-placeholder{
+    color: red;
+}
+
+#days {
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 0, 0.21);
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    height: 37px;
+    border-radius: 7px;
+    width: 6rem;
+}
+
+.form button img{
+    height: 20px;
+    width: 20px;
+}
+
+.form button{
+    background: rgba(254, 254, 254, 0.779);
+    text-align: center;
+    margin-top: 1.5rem;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.task {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: aqua;
+    padding-top: 30px;
+    padding-left: 40%;
+}
+.task button{
+    height: 20px;
+    width: 20px;
+}
